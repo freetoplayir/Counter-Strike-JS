@@ -1,0 +1,46 @@
+{
+  "name": "counter-strike-js",
+  "version": "1.0.0",
+  "description": "Counter-Strike 1.6 implementation in JavaScript/Typescript utilizing state of the art browser APIs.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --port 9000 --watch --hot --mode development",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimDez/CS.git"
+  },
+  "keywords": [],
+  "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimDez/CS/issues"
+  },
+  "homepage": "https://github.com/VadimDez/CS#readme",
+  "dependencies": {
+    "@types/gl-matrix": "^2.4.5",
+    "gl-matrix": "^3.0.0",
+    "keyboardjs": "^2.5.1",
+    "peerjs": "^0.3.24",
+    "soundjs": "^1.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
